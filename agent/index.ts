@@ -55,7 +55,7 @@ function hook_bili(base) {
             console.log('[Info] bili: ' + args[1].readCString())
         },
     });
-    
+
 }
 
 setImmediate(main, 100);
